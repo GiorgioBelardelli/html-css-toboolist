@@ -37,15 +37,15 @@ header{
     margin: auto;
     margin-top: 50px;
     border-radius: 10px;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px 100px 50px;
 }
 /*Imposto la prima riga del body, con i bottoni principali*/
 #mainButtons{
-    width: auto;
+    width: 100%;
     border-bottom: 3px solid whitesmoke;
     padding-top: 20px;
     padding-bottom: 10px;
-    padding-left: 50px; 
+    padding-left: 0px; 
 }
 
 #taskButton{
@@ -68,6 +68,7 @@ header{
 
 h4{
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .checkmark::after{
@@ -84,5 +85,65 @@ h4{
     border: 0px;
     border-radius: 15px;
     padding: 10px;
+
+}
+
+/*Sezione Today*/
+
+.crossmark::after{
+    content: "\2715";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.goalsButton{
+    background-color: purple ;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.recruitingButton{
+    background-color: green;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.mobileButton{
+    background-color: orange ;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+/*Stili Upcoming section*/
+
+.webButton{
+    background-color: palevioletred ;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.saleButton{
+    background-color: olive;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
 
 }
