@@ -27,3 +27,62 @@ header{
     width: 90px;
     vertical-align: middle;
 }
+
+/*Stile per il main*/
+
+/*Setto il contenitore del corpo principale, che racchiude le sezioni*/
+.container{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 0px 50px 0px 50px;
+}
+/*Imposto la prima riga del body, con i bottoni principali*/
+#mainButtons{
+    width: auto;
+    border-bottom: 3px solid whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px; 
+}
+
+#taskButton{
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 15px;
+}
+
+#sectionButton{
+    background-color: white;
+    color:gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px 15px;
+}
+
+/*Sezione New Task*/
+
+h4{
+    font-size: 20px;
+}
+
+.checkmark::after{
+    content: "\2713";
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.editButton{
+    color: white;
+    background-color: skyblue;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
